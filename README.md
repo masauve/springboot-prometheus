@@ -60,7 +60,7 @@ oc get cm prometheus -o yaml > prometheus.yaml
 '''
 
 edit prometheus.yaml to add the namespace of your SpringBoot application:
-'''
+```yaml
       kubernetes_sd_configs:
       - role: pod
         namespaces:
@@ -77,7 +77,7 @@ edit prometheus.yaml to add the namespace of your SpringBoot application:
           - prometheus
           - ${YOUR_NAMESPACE}
 
-'''
+```
 
 restart prometheus and reload the configuration.
 
