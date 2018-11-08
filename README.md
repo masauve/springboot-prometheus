@@ -93,4 +93,7 @@ To validate that the metrics are exposed, in a browser, inspect the /prometheus 
 
 ![SpringBoot Metrics](/img/sb-sshot.jpg)
 
+Finally, you can verify that the Prometheus target as been added and that the scrape was succesful:
+
+![Prometheus Targets](/img/prom-targets.jpg)
 
