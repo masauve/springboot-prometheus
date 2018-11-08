@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: spring-boot-rest-http
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: spring-boot-rest-http@sha256:bd1d8938502a0a6c70e9a0cf55af8f1ae770f26bd5e65639c20d1f0b6da61e8c
+        namespace: prometheus
+      name: latest

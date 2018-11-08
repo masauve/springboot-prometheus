@@ -1,0 +1,3 @@
+io/openshift/booster/LocalTest.class
+io/openshift/booster/AbstractBoosterApplicationTest.class
+io/openshift/booster/OpenShiftIT.class

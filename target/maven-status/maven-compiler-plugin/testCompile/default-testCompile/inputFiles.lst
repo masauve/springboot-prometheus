@@ -1,0 +1,3 @@
+/opt/demo/springboot-prometheus/src/test/java/io/openshift/booster/LocalTest.java
+/opt/demo/springboot-prometheus/src/test/java/io/openshift/booster/OpenShiftIT.java
+/opt/demo/springboot-prometheus/src/test/java/io/openshift/booster/AbstractBoosterApplicationTest.java
