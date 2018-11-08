@@ -80,7 +80,17 @@ edit prometheus.yaml to add the namespace of your SpringBoot application:
 
 ```
 
+
+Apply the config change:
+
+```
+oc replace -f prometheus.yaml
+```
+
 restart prometheus and reload the configuration.
 
+To validate that the metrics are exposed, in a browser, inspect the /prometheus endpoint of your application:
+
+![SpringBoot Metrics](/img/sb-sshot.jpg)
 
 
